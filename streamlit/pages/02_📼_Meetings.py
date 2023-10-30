@@ -8,7 +8,7 @@ from elevenlabs import generate, set_api_key
 
 st.set_page_config(page_title="GPTMeeting", page_icon='📼')
 
-aai.settings.api_key = st.secrets["ASSEMBLYAI_API_KEY"] 
+aai.settings.api_key = st.secrets["176f73e0c70743cea9296e62acf3c7fd"] 
 set_api_key(st.secrets["ELEVENLABS_API_KEY"])
 
 def summarize_meeting(audio_file):
